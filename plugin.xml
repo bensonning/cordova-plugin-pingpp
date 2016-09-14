@@ -13,7 +13,7 @@
         <engine name="cordova" version=">=6.0.0"/>
     </engines>
     <js-module src="www/pingpp.js" name="pingpp">
-        <clobbers target="pingpp" />
+        <clobbers target="navigator.pingpp" />
     </js-module>
 
     <platform name="android">
